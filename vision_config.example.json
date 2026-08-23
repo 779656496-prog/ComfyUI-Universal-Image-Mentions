@@ -1,0 +1,8 @@
+{
+  "mode": "AUTO",
+  "url": "http://127.0.0.1:11434/v1",
+  "model": "your-vision-model-name",
+  "api_key_env": "",
+  "required": false,
+  "timeout": 90
+}
