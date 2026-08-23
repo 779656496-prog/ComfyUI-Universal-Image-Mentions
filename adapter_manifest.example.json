@@ -1,0 +1,29 @@
+{
+  "MyThirdPartyReferenceNode": {
+    "name": "MY_NODE_ADAPTER",
+    "slots": ["image_1", "image_2", "image_3"],
+    "max_refs": 3,
+    "tag_template": "Picture {i}",
+    "prompt_input": "prompt",
+    "native_vision": true,
+    "replace_existing": false,
+    "strength_map": {
+      "image_1": "image_1_strength",
+      "image_2": "image_2_strength",
+      "image_3": "image_3_strength"
+    },
+    "mask_map": {
+      "image_1": "image_1_mask",
+      "image_2": "image_2_mask",
+      "image_3": "image_3_mask"
+    },
+    "capabilities": {
+      "supports_reference_image": true,
+      "supports_multi_reference": true,
+      "supports_native_strength": true,
+      "supports_native_mask": true,
+      "confidence": "USER_VERIFIED",
+      "reference_semantics": ["IDENTITY", "CLOTHING", "STYLE", "GENERAL_REFERENCE"]
+    }
+  }
+}
