@@ -1,0 +1,2 @@
+# Intentionally empty.
+# Uses only Python stdlib plus dependencies already provided by ComfyUI.
